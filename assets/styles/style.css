@@ -2,6 +2,7 @@ body{
   margin: 0px;
   font-family: 'Mali', cursive;
 }
+/* Menu style */
 .text-center{
   text-align: center;
 }
@@ -19,35 +20,39 @@ body{
   text-decoration: none;
   color: black
 }
-.favourite-wrapper{
+.menu-item.first{
+  padding-left: 50px;
+}
+/* END Menu style */
+
+/* Content */
+.wrapper{
   margin: 10px 20px;
   text-align: center;
 }
-.favourite-item{
-  text-align: left;
+.item{
+  padding: 5px 3px;
   display: inline-block;
   width: 45%;
+}
+.favourite.item{
+  text-align: left;
   border: 2px dashed #2b87ff
 }
-.favourite-image{
+.favourite.image{
   display: inline-block;
   width: 100px;
 }
 .favourite-desc{
   font-size: 12px;
-  width: 470px;
+  width: 330px;
   display: inline-block;
   vertical-align: top;
 }
 .list.wishlist{
   margin-top: 50px;
 }
-.wishlist-wrapper{
-  text-align: center;
-}
-.wishlist-item{
-  display: inline-block;
-  width: 45%;
+.wishlist.item{
   border: 2px dashed #2bff6b;
 }
 .footer{
