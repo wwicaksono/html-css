@@ -1,0 +1,77 @@
+body{
+  margin: 0px; 
+  font-family: 'Mali', cursive;
+}
+.text-center{
+  text-align: center;
+}
+.menu-wrapper{
+  background-color: antiquewhite;
+  height: 50px;
+  line-height: 50px;
+  /* padding-left: 60px; */
+  /* padding: 0px 0px 0px 60px; */
+}
+.menu-item{
+  display: inline-block;
+  width: 100px;
+}
+.menu-item.first{
+  margin-left: 50px;
+}
+.menu-item a{
+  text-decoration: none;
+  color: #000000;
+}
+.menu-item p{
+  color: blue;
+}
+.item{
+  border: 2px dashed #2b87ff;
+}
+.image{
+  display: inline-block;
+}
+.description{
+  vertical-align: top;
+  display: inline-block;
+}
+.item.favourite{
+  display: inline-block;
+  width: 400px;
+}
+/* 
+display: block | inline | inline-block | none;
+*/
+
+/* 
+https://goo.gl/9e6Qn
+My library
+ | assets
+   | images
+   | styles
+     style.css
+index.html
+*/
+
+/*
+CSS Selector
+.class-name{
+	
+}
+#id-name{
+	
+}
+tag-name{
+	
+}
+.first-class.second-class{
+	
+}
+.first-class .child-class{
+	
+}
+.first-class child-tag{
+	
+}
+*/
